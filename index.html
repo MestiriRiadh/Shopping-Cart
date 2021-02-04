@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SHOPPING CART</h1>
+    </header>
+    <main class="row main">
+      <div class="col-md-8 col-12">
+        <section class="box">
+          <h1>Cart (2items)</h1>
+          <article>
+            <div class="article">
+              <img
+                src="/image/pepe_jeans_light_blue_solid_denim_shirt_1572520947as1795813_1.jpg"
+              />
+              <div class="details">
+                <h2>Blue denim shirt</h2>
+                <p>SHIRT : BLUE</p>
+                <p>COLOR : BLUE</p>
+                <p>SIZE : M</p>
+                <p class="remove"><i class="bi bi-trash"></i> REMOVE ITEM</p>
+                <p class="like">
+                  <i class="bi bi-suit-heart-fill"></i> MOVE TO WISH LIST
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-quantity btn-moin"
+                >
+                  -
+                </button>
+                <span class="quantity">0</span>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-quantity btn-plus"
+                >
+                  +
+                </button>
+              </div>
+              <h2 class="price">17.99 €</h2>
+            </div>
+          </article>
+          <hr />
+          <article>
+            <div class="article">
+              <img src="image/41RnAglTvxL.jpg" />
+              <div class="details">
+                <h2>RED HOODIE</h2>
+                <p>HOODIE: RED</p>
+                <p>COLOR : RED</p>
+                <p>SIZE : M</p>
+                <p class="remove"><i class="bi bi-trash"></i> REMOVE ITEM</p>
+                <p class="like riadh">
+                  <i class="bi bi-suit-heart-fill"></i> MOVE TO WISH LIST
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-quantity btn-moin"
+                >
+                  -
+                </button>
+                <span class="quantity">0</span>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-quantity btn-plus"
+                >
+                  +
+                </button>
+              </div>
+              <h2 class="price">10.99 €</h2>
+            </div>
+          </article>
+        </section>
+      </div>
+      <div class="col-md-4 col-12">
+        <section class="box">
+          <h1>The Total amount of</h1>
+          <div class="amount">
+            <p>Temporary amount</p>
+            <p>€<span class="total-price">0</span></p>
+          </div>
+          <div class="amount">
+            <p>Shipping</p>
+            <p>Gratis</p>
+          </div>
+          <hr />
+          <div class="amount total">
+            <p>
+              The Total amount of <br />
+              (Including VAT)
+            </p>
+            <p>€0</p>
+          </div>
+          <button type="button" class="btn btn-primary check">
+            GO TO CHECKOUT
+          </button>
+        </section>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
